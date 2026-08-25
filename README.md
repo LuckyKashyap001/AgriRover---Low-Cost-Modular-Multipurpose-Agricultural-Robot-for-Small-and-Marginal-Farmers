@@ -692,59 +692,6 @@ Disable spraying:
 
 ---
 
-# 📁 Repository Structure
-
-```text
-AgriRover/
-│
-├── README.md
-│
-├── firmware/
-│   │
-│   ├── main-controller/
-│   │   └── AgriRover_Main.ino
-│   │
-│   └── weed-detection/
-│       └── AgriRover_WeedAI.ino
-│
-├── ai/
-│   ├── dataset/
-│   ├── training/
-│   ├── model/
-│   └── README.md
-│
-├── web/
-│   ├── dashboard.html
-│   ├── style.css
-│   └── script.js
-│
-├── hardware/
-│   ├── wiring/
-│   ├── schematics/
-│   └── pcb/
-│
-├── mechanical/
-│   ├── chassis/
-│   ├── spray-attachment/
-│   └── cad/
-│
-├── images/
-│   ├── rover.jpg
-│   ├── front-module.jpg
-│   ├── rear-module.jpg
-│   ├── wiring.jpg
-│   └── dashboard.jpg
-│
-├── docs/
-│   ├── architecture.md
-│   ├── wiring.md
-│   └── ai-model.md
-│
-└── LICENSE
-```
-
----
-
 # 💻 Software Requirements
 
 ## Arduino IDE
